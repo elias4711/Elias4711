@@ -1,0 +1,239 @@
+body {
+  background-color: #1e2560;
+  color: white;
+  font-family: 'Bely Display', serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  z-index: auto;
+}
+
+.content {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 667px;
+  max-width: 375px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  -webkit-animation-name: title;
+          animation-name: title;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  position: relative;
+}
+
+.leaf1 {
+  z-index: -20;
+  position: fixed;
+  bottom: -120px;
+  right: -80px;
+  -webkit-animation-name: leaf;
+          animation-name: leaf;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.leaf1 img {
+  width: 320px;
+}
+
+.leaf2 {
+  z-index: -21;
+  position: fixed;
+  top: -100px;
+  left: -70px;
+  -webkit-animation-name: leaf2;
+          animation-name: leaf2;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.leaf2 img {
+  width: 300px;
+}
+
+.leaf3 {
+  z-index: -19;
+  position: fixed;
+  top: -30px;
+  left: -30px;
+  -webkit-animation-name: leaf3;
+          animation-name: leaf3;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.leaf3 img {
+  width: 150px;
+}
+
+.leaf4 {
+  z-index: -18;
+  position: fixed;
+  bottom: -40px;
+  right: -80px;
+  -webkit-animation-name: leaf4;
+          animation-name: leaf4;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.leaf4 img {
+  width: 200px;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px 25px;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: #ffffff10;
+  color: white;
+  -webkit-animation-name: button;
+          animation-name: button;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+@-webkit-keyframes leaf {
+  from {
+    bottom: -300px;
+    right: -150px;
+  }
+  to {
+    bottom: -120px;
+    right: -80px;
+  }
+}
+
+@keyframes leaf {
+  from {
+    bottom: -300px;
+    right: -150px;
+  }
+  to {
+    bottom: -120px;
+    right: -80px;
+  }
+}
+
+@-webkit-keyframes leaf2 {
+  from {
+    top: -300px;
+    left: -150px;
+  }
+  to {
+    top: -100px;
+    left: -70px;
+  }
+}
+
+@keyframes leaf2 {
+  from {
+    top: -300px;
+    left: -150px;
+  }
+  to {
+    top: -100px;
+    left: -70px;
+  }
+}
+
+@-webkit-keyframes leaf3 {
+  from {
+    top: -100px;
+    left: -100px;
+  }
+  to {
+    top: -30px;
+    left: -30px;
+  }
+}
+
+@keyframes leaf3 {
+  from {
+    top: -100px;
+    left: -100px;
+  }
+  to {
+    top: -30px;
+    left: -30px;
+  }
+}
+
+@-webkit-keyframes leaf4 {
+  from {
+    bottom: -100px;
+    right: -200px;
+  }
+  to {
+    bottom: -40px;
+    right: -80px;
+  }
+}
+
+@keyframes leaf4 {
+  from {
+    bottom: -100px;
+    right: -200px;
+  }
+  to {
+    bottom: -40px;
+    right: -80px;
+  }
+}
+
+@-webkit-keyframes button {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes button {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes title {
+  from {
+    left: -200px;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+@keyframes title {
+  from {
+    left: -200px;
+  }
+  to {
+    left: 0px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
